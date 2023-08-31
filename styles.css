@@ -1,0 +1,107 @@
+body{
+    /*box-sizing: border-box;*/
+    padding: 0;
+    margin: 0;
+    background-color: moccasin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+    transition-duration: 0.7s;
+}
+
+.buttonContainerModes {
+    display: flex;
+}
+
+.colorContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#colorSelect {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: goldenrod;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+    transition-duration: 0.7s;
+}
+
+#selectedColorBox{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+#buttonChange {
+    background-color: rebeccapurple;
+    border: 2px solid white;
+}
+
+#buttonEraser {
+    background-color: brown;
+    border: 2px solid white;
+}
+
+#buttonClear {
+    background-color: darkred;
+    border: 2px solid white;
+}
+
+#buttonBW {
+    background-color: black;
+    border: 2px solid white;
+}
+
+#buttonDarken {
+    background-color: darkgray;
+    border: 2px solid white;
+}
+
+#buttonRGB {
+    background-color: orangered;
+    border: 2px solid white;  
+}
+
+button:hover {
+    background-color: white;
+    scale: 1.1;
+    border: 2px solid orangered;
+}
+
+.selected {
+    scale: 1.1;
+}
+
+#gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 640px;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid orangered;
+}

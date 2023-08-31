@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>odin-etch-a-sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+
+</head>
+
+<body>
+    <h1>Etch-a-Sketch</h1>
+
+    <div class="buttonContainerModes">
+        <button id="buttonBW">B&W Mode</button>
+        <button id="buttonRGB">RGB Mode</button>
+        <button id="buttonDarken">Darken Mode</button>
+
+        <div class="colorContainer">
+            
+            <select id="colorSelect">
+                <option value="">Select a color</option>
+                <option value="#FF5733">Orange</option>
+                <option value="#E74C3C">Red</option>
+                <option value="#3498DB">Blue</option>
+                <option value="#2ECC71">Green</option>
+                <option value="#9B59B6">Purple</option>
+                <option value="#F39C12">Yellow</option>
+                <option value="#1ABC9C">Turquoise</option>
+                <option value="#34495E">Dark Blue</option>
+                <option value="#27AE60">Emerald</option>
+                <option value="#8E44AD">Violet</option>
+                <option value="#D35400">Pumpkin</option>
+                <option value="#16A085">Green Sea</option>
+                <option value="#2980B9">Bright Blue</option>
+                <option value="#C0392B">Dark Red</option>
+                <option value="#F1C40F">Sunflower</option>
+                <option value="#2C3E50">Midnight Blue</option>
+            </select>
+            <div id="selectedColorBox"></div>
+        </div>
+    </div>
+
+    <div class="buttonContainerMain">
+        <button id="buttonEraser">ERASER</button>
+        <button id="buttonChange">CHANGE SIZE</button>
+        <button id="buttonClear">CLEAR</button>
+    </div>
+
+    <div id="gridContainer">
+
+    </div>
+
+</body>
+
+</html>
